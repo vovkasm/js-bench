@@ -1,0 +1,14 @@
+{
+  "name": "small-engine-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hermes": "../../hermes/build_release/bin/hermes index.js",
+    "node": "node index.js",
+    "bun": "bun index.js",
+    "test": "npm run -s node && npm run -s bun && npm run -s hermes"
+  },
+  "author": "",
+  "license": "MIT"
+}
